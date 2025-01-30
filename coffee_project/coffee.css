@@ -34,12 +34,12 @@ body{
 }
 .hero-details {
     width: 50%;
-    text-align: left; /* Ensure text is aligned to the left */
+    text-align: left; 
 }
 .hero-image-warapper {
     width: 50%;
     display: flex;
-    justify-content: flex-end; /* Align image to the right */
+    justify-content: flex-end;
 }
 .hero-image {
     max-width: 100%;
@@ -59,34 +59,34 @@ body{
 .button:hover {
     color: #763c2b;
 }
-/* Menu section styling */
+
 .menu-section {
-    background-color: #F4E1C6; /* Sandal color background */
+    background-color: #F4E1C6; 
     padding: 50px 0;
     text-align: center;
     margin-bottom: 0;
 }
 
-/* Centering the menu title and adding an underline */
+
 .menu-title {
     font-size: 36px;
     font-weight: bold;
     text-decoration: underline;
-    text-decoration-color: brown; /* Brown underline */
+    text-decoration-color: brown; 
     color: black;
     margin-bottom: 20px;
 }
 
-/* Grid layout for two rows and three columns */
+
 .menu-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
-    gap: 30px; /* Space between grid items */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; 
     max-width: 80%;
     margin: auto;
 }
 
-/* Each menu item */
+
 .menu-item {
     background: white;
     padding: 15px;
@@ -114,11 +114,11 @@ body{
     margin-top: 10px;
 }
 
-/* Contact Section Styling */
+
 .contact {
     background-color: #763c2b;
     padding: 50px 0;
-    margin-top: 0; /* Remove unwanted gap */
+    margin-top: 0;
 }
 
 .form {
@@ -180,7 +180,7 @@ textarea {
     background: #ab7049;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .form {
         width: 90%;
